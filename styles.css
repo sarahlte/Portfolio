@@ -1,0 +1,233 @@
+
+h1 {
+    font-size: 32px!important;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px!important;
+}
+
+h3 {
+    font-size: 18.72px!important;
+}
+
+.container{
+    width: 70%;
+} 
+
+@media screen and (min-width: 1200px){
+    .container {
+        max-width: 70%!important;
+    }
+}
+
+#portfolio {
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 50px;
+    text-shadow: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    font-size: 18.72px!important;
+}
+
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div {
+    width: 85%;
+    background-color: rgb(201, 159, 131);
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.47);
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 0 0;
+}
+
+#presentation {
+    display: flex;
+    margin-top: 15px;
+    width: 90%;
+}
+
+#pres {
+    font-size: 18.72px;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-link, #contact {
+    font-size: 24px!important;
+}
+
+#projectsdiv {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.col {
+    width: 50%!important;
+}
+
+#project-title {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    #contact-div {
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact {
+        width: 100%;
+    }
+    .flexRow {
+        flex-direction: column;
+    }
+    .container {
+        width: 95%!important;
+    }
+   
+}
+
+@media screen and (max-width: 545px) {
+    .card-body {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .card-body {
+        height: 250px;
+    }
+}
+
+.card-img-top {
+    height: fit-content;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+}
+
+.card {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.47);
+    height: max-content;
+}
+
+.contactDiv {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    height: max-content;
+}
+
+.fa-2xl, .fa-lg {
+    line-height: unset!important;
+}
+
+.m0 {
+    margin: 0 10px;
+}
+
+.flexRow {
+    display: flex;
+    align-items: center;
+}
+
+.iconLink {
+    text-decoration:none;
+    color: black;
+    margin: 0 10px;
+}
+
+.cardLink {
+    text-decoration: none;
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+    height: 350px!important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+footer {
+    margin-top: 30px;
+}
+
+#meLink {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-shadow: 2px 2px 3px rgba(142, 141, 141, 0.763);;
+}
+
+.iconLink {
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 767px){
+    #presentation{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #mini-pres{
+        flex-wrap: wrap;
+    }
+    #mini-project{
+        flex-direction: column!important;
+        align-items: center;
+    }
+    .col{
+        width: 80%!important;
+    }
+    .phone{
+        text-decoration: none!important;
+        color: black!important;
+    }
+}

@@ -1,0 +1,29 @@
+#maquette{
+    width: 40%;
+    height: fit-content;
+}
+
+#bootstrap-div{
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+#boostrap-img{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#bootstrap-link{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 775px){
+    #maquette{
+        width: 300px;
+        height: 1059px;
+    }
+}
